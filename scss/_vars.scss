@@ -1,0 +1,35 @@
+$text-head: #ffffff;
+$bg-text:#484848;
+$text-color:#FFAB2D;
+$bg-main: #93B2CF;
+
+
+$burger-width: 26px;
+$burger-height: 21px;
+$burger-line-height: 3px;
+$burger-line-color: #ffffff;
+
+%light {
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+%regular {
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+%medium{
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+%semi-bold {
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+%bold{
+ font-family: 'Montserrat';
+ font-weight: 700;
+}
+

@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: 'Montserrat',  sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: $bg-text;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img{
+  width: 100%;
+}
+
+button {
+  padding: 0;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 45px;
+    margin: 0 auto;
+  }
+}
+
+
+.title {
+  font-size: 18px;
+  line-height: 22px;
+  @extend %bold;
+  position: relative;
+  color: $text-head;
+}
+
+
+
+
+
+.btn {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: $text-head;
+  background: $text-color;
+  color: $text-head;
+  padding: 15px 23px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
